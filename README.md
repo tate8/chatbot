@@ -23,3 +23,5 @@ I used a Transformer model as described in the [Attention is All you Need](https
 ### Dataset
 
 ### Website Mockup
+<img width="695" alt="Mobile Mockup" src="https://user-images.githubusercontent.com/70344865/168396279-dfd25719-3c26-4e52-971c-85538d76a718.png">
+<img width="1057" alt="Desktop Mockup" src="https://user-images.githubusercontent.com/70344865/168396282-027f1865-07cc-4a3b-8a84-90f76de5294b.png">
