@@ -10,7 +10,7 @@ Q&amp;A Chatbot website with multithreaded web server in Rust
 I created a multithreaded web server in Rust from scratch to serve the website. The server interacts with the machine learning model to dynamically process user questions and serve up a response. It uses a thread pool to hold threads which it can allocate to a task. Workers accept the code that needs to be executed and run that code on different threads in parallel, and when they complete their task, they return to the thread pool to accept a new task.
 <br> <br>
 <p align="center">
-![threadPool](https://user-images.githubusercontent.com/70344865/168331541-b2df86bf-7cf0-433a-ba59-048ac61947ba.png)
+ <img src="https://user-images.githubusercontent.com/70344865/168331541-b2df86bf-7cf0-433a-ba59-048ac61947ba.png"></img>
  </p>
 
 ### Machine Learning Model
