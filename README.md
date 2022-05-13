@@ -17,11 +17,11 @@ I created a multithreaded web server in Rust from scratch to serve the website. 
 I used a Transformer model as described in the [Attention is All you Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) paper. This architecture utilizes only attention mechanisms to track relationships and find patterns in data. It uses self-attention to weight the significance of each part of the input data. Inputs are embedded, positionally encoded, and sent through an encoder and decoder with multiple iterations of Multi-Head Attention layers which runs through attention mechanisms multiple times in parallel. It then uses a final point-wise network for its predictions.
 <br>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/70344865/168329344-4978b250-fd0d-4a78-a280-0fb277451f74.png" width="500" height="700"></img>
+  <img src="https://user-images.githubusercontent.com/70344865/168329344-4978b250-fd0d-4a78-a280-0fb277451f74.png" width="400" height="600"></img>
 </p>
 
 ### Dataset
 
 ### Website Mockup
-<img width="695" alt="Mobile Mockup" src="https://user-images.githubusercontent.com/70344865/168396279-dfd25719-3c26-4e52-971c-85538d76a718.png">
-<img width="1057" alt="Desktop Mockup" src="https://user-images.githubusercontent.com/70344865/168396282-027f1865-07cc-4a3b-8a84-90f76de5294b.png">
+<img width="500" alt="Mobile Mockup" src="https://user-images.githubusercontent.com/70344865/168396279-dfd25719-3c26-4e52-971c-85538d76a718.png">
+<img width="800" alt="Desktop Mockup" src="https://user-images.githubusercontent.com/70344865/168396282-027f1865-07cc-4a3b-8a84-90f76de5294b.png">
