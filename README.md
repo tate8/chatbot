@@ -18,15 +18,11 @@ I used a Transformer model as described in the [Attention is All you Need](https
 <br>
 
 Scaled Dot Product Attention
-<p align="center">
-  <img width="342" alt="ScaledDotProductAttn" src="https://user-images.githubusercontent.com/70344865/168853068-6bbf752d-2294-4e03-9f01-55bae063268b.png">
-</p>
+  <img width="200" alt="ScaledDotProductAttn" src="https://user-images.githubusercontent.com/70344865/168853068-6bbf752d-2294-4e03-9f01-55bae063268b.png">
 <br>
 
 Multi-Head Attention
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/70344865/168852860-f858a97f-0eb9-4dfe-8b7f-609a32f1db84.png" width="400" height="600"></img>
-</p>
+  <img src="https://user-images.githubusercontent.com/70344865/168852860-f858a97f-0eb9-4dfe-8b7f-609a32f1db84.png" width="200"></img>
 <br>
 
 Full Model
