@@ -19,7 +19,7 @@ I used a Transformer model as described in the [Attention is All you Need](https
 
 Scaled Dot Product Attention
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/70344865/168852664-1f1335ec-7dee-42f4-958d-438d7b081050.png" width="400" height="600"></img>
+  <img width="342" alt="ScaledDotProductAttn" src="https://user-images.githubusercontent.com/70344865/168853068-6bbf752d-2294-4e03-9f01-55bae063268b.png">
 </p>
 <br>
 
