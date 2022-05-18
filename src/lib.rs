@@ -141,6 +141,3 @@ enum Message {
     NewJob(Job),
     Terminate,
 }
-
-// TODO: Create HTTP Request and Response containers
-// HTTP Response needs a HEADER where put content type styles or javascript etc
