@@ -1,7 +1,8 @@
-# chatbot
+# translator
 
 ## Description
-Q&amp;A Chatbot website with multithreaded web server in Rust
+A English-to-Spanish translation website running on a multithreaded web server.\
+Check out[this notebook](https://github.com/tate8/neural-machine-translation) for the ML code.
 
 ### Contributor(s)
 * Tate Larkin
@@ -32,7 +33,7 @@ Full Model
 
 
 ### Dataset
-...
+Tensorflow English-Spanish dataset
 
 ### Website
 For the website design, I mimicked a messaging app such as Apple's Messages and other texting software. I used Mobile First design tactics to ensure great quality and responsiveness on any screen size.
