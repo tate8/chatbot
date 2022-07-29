@@ -14,6 +14,7 @@ const NUM_THREADS: usize = 4;
 
 fn main() {
    let listener = TcpListener::bind("127.0.0.1:7878").expect("Couldn't connect to the server...");
+   println!("Server listening at 127.0.0.1:7878 ...");
    let pool = ThreadPool::new(NUM_THREADS);
 
    for stream in listener.incoming()
