@@ -15,19 +15,19 @@ pub struct ThreadPool
     sender: mpsc::Sender<Message>,
 }
 impl ThreadPool {
-    // usize for unsigned params (negative threads doesn't make sense)
+   
     pub fn new(size: usize) -> ThreadPool {
         assert!(size > 0);
 
         let (sender, receiver) = mpsc::channel();
-
+        
+        // the receiver is shared betwen all workers, therefore Mutex is needed to share ownership
         let receiver = Arc::new(Mutex::new(receiver));
 
         let mut workers = Vec::with_capacity(size);
 
         for id in 0..size
         {
-            // clone the Arc to bump the reference count so the workers can share ownership of the receiving end
             workers.push(Worker::new(id, Arc::clone(&receiver)));
         }
 

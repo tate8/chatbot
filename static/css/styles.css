@@ -4,6 +4,7 @@ body {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
+    padding-bottom: 5rem;
 }
 
 /* MAIN PAGE */
@@ -67,7 +68,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .type-message-box {
     width: calc(100% - 2rem);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #EDEDEF;
     color: black;
@@ -83,7 +84,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .send-message-button {
     font-size: 3rem;
     color: green;
-    position: absolute;
+    position: fixed;
     bottom: 0.5rem;
     right: 0.5rem;
     cursor: pointer;
