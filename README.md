@@ -1,5 +1,8 @@
 # translator
 
+<img src="https://user-images.githubusercontent.com/70344865/181678495-55a528d1-9cac-4c87-a31c-0446f3ec6257.png" width="600" height="400"></img>
+<img src="https://user-images.githubusercontent.com/70344865/181678568-f2aa6448-eee9-480e-be01-29674bf988e1.png" width="600" height="400"></img>
+
 ## Description
 A English-to-Spanish translation website running on a multithreaded web server.\
 Check out [this notebook](https://github.com/tate8/neural-machine-translation) for the ML code.
