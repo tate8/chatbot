@@ -2,7 +2,7 @@
 
 ## Description
 A English-to-Spanish translation website running on a multithreaded web server.\
-Check out[this notebook](https://github.com/tate8/neural-machine-translation) for the ML code.
+Check out [this notebook](https://github.com/tate8/neural-machine-translation) for the ML code.
 
 ### Contributor(s)
 * Tate Larkin
