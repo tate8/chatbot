@@ -37,7 +37,3 @@ Tensorflow English-Spanish dataset
 
 ### Website
 For the website design, I mimicked a messaging app such as Apple's Messages and other texting software. I used Mobile First design tactics to ensure great quality and responsiveness on any screen size.
-
-### Website Mockup
-<img width="500" alt="Mobile Mockup" src="https://user-images.githubusercontent.com/70344865/168396279-dfd25719-3c26-4e52-971c-85538d76a718.png">
-<img width="800" alt="Desktop Mockup" src="https://user-images.githubusercontent.com/70344865/168396282-027f1865-07cc-4a3b-8a84-90f76de5294b.png">
